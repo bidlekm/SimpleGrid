@@ -1,0 +1,14 @@
+﻿C:\Users\bidle\source\repos\demo\demo\GeometryShader.hlsl(25,29-64): warning X3206: implicit truncation of vector type
+C:\Users\bidle\source\repos\demo\demo\GeometryShader.hlsl(26,29-64): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\bidle\source\repos\demo\x64\Debug\demo\GeometryShader.cso
+  pch.cpp
+  App.cpp
+  Camera.cpp
+  DeviceResources.cpp
+  demoMain.cpp
+  GridRenderer.cpp
+  Grid.cpp
+C:\Users\bidle\source\repos\demo\demo\Content\GridRenderer.cpp(349,1): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Users\bidle\source\repos\demo\demo\Content\GridRenderer.cpp(361,1): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  demo.vcxproj -> C:\Users\bidle\source\repos\demo\x64\Debug\demo\demo.exe

@@ -1,0 +1,19 @@
+﻿  compilation object save succeeded; see C:\Users\bidle\source\repos\demo\Debug\demo\PixelShader.cso
+  compilation object save succeeded; see C:\Users\bidle\source\repos\demo\Debug\demo\VertexShader.cso
+C:\Users\bidle\source\repos\demo\demo\GeometryShader.hlsl(25,29-64): warning X3206: implicit truncation of vector type
+C:\Users\bidle\source\repos\demo\demo\GeometryShader.hlsl(26,29-64): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\bidle\source\repos\demo\Debug\demo\GeometryShader.cso
+  App.cpp
+  Camera.cpp
+  GridRenderer.cpp
+  Grid.cpp
+  demoMain.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037\include\memory(2748,1): warning C4316: 'std::_Ref_count_obj2<_Ty>': object allocated on the heap may not be aligned 16
+          with
+          [
+              _Ty=Camera
+          ] (compiling source file demoMain.cpp)
+C:\Users\bidle\source\repos\demo\demo\demoMain.cpp(33): message : see reference to function template instantiation 'std::shared_ptr<Camera> std::make_shared<Camera,Camera&>(Camera &)' being compiled
+  LINK : C:\Users\bidle\source\repos\demo\Debug\demo\demo.exe not found or not built by the last incremental link; performing full link
+  demo.vcxproj -> C:\Users\bidle\source\repos\demo\Debug\demo\demo.exe

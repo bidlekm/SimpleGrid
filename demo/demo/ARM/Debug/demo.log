@@ -1,0 +1,11 @@
+﻿  App.cpp
+  Camera.cpp
+  demoMain.cpp
+  GridRenderer.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037\include\memory(2748,1): warning C4316: 'std::_Ref_count_obj2<_Ty>': object allocated on the heap may not be aligned 16
+          with
+          [
+              _Ty=Camera
+          ] (compiling source file demoMain.cpp)
+C:\Users\bidle\source\repos\demo\demo\demoMain.cpp(33): message : see reference to function template instantiation 'std::shared_ptr<Camera> std::make_shared<Camera,Camera&>(Camera &)' being compiled
+  demo.vcxproj -> C:\Users\bidle\source\repos\demo\ARM\Debug\demo\demo.exe
