@@ -1,3 +1,5 @@
+Simple Grid in D3D
+
 A feladat elkezdésénél két út jutott az eszembe kapásból, egy implicit megoldás, amelynél valamilyen Ray Tracing algoritmus jeleníteném meg a gridet-et, ezt shaderben implementálva.
 Ennél a megoldásnál nem kellett volna tárolni a pontok helyzetét és buffereket létrehozni, viszont valószínüleg nehezebb lett volna pontosan kiszámolni a kamera helyzetéből a 10-10 szegmenst.
 A másik megoldás, ami mellett végül döntöttem, hogy a rácsot alkotó vonalak végpontjait kiszámolom és egy bufferbe betöltve kirajzoltatom őket a képernyőre. Ennek a legnagyobb előnyét abban
